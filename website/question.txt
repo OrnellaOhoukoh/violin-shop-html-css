@@ -1,0 +1,42 @@
+
+         Une page d'accueil qui doit contenir au minimum:
+            i.   un header avec logo
+            ii.   une navigation principale
+            iii.   plusieurs titres (principal et sous-titres)
+            iv.   un texte d'introduction
+            v.   au moins 3 photos
+            vi.   un footer conséquent
+            vii.   des liens vers réseaux sociaux
+            viii.   une adresse de contact
+
+
+         Une page de galerie de 12 photos.
+            i.   Vous devrez placer des miniatures des photos, qui seront des liens vers le détail du produit.
+
+        Une page "catalogue" qui propose une liste de produits:
+            i.    au moins 6 produits différents avec des caractéristiques de base des produits (nom de l'article, prix, description, etc.)
+
+
+        Une page qui propose le détail d’un produit:
+            i.   la page détail sera accessible depuis les pages «catalogue» et «gallerie» en cliquant sur la photo de l'un des produits
+            ii. Insérer au minimum:
+                1.   nom de l'article,
+                2.   prix,
+                3.   description détaillée,
+                4.   taille/dimensions/poids,
+                5. etc.
+
+        Une page contact avec un formulaire qui devra contenir :
+            i.   au minimum 3 champs texte
+            ii.   des boutons radio
+            iii.   des cases à cocher
+            iv.   une liste déroulante
+            v.   un champ de texte multi-lignes
+            vi.   un bouton de soumission.
+            vii.  Le formulaire doit être stylé et avoir un look moderne
+            viii.   les éléments du formulaire doivent être correctement alignés.
+
+        Une page contenant un tableau des caractéristiques détaillées des produits. Par exemple, comparatif de forfaits, ingrédients d'une recette, etc.
+            i.   Le tableau devra être stylé à l'aide de CSS (exemple : lignes du tableau de couleurs alternées, mise en valeur des entêtes de lignes et de colonnes...)
+
+         Vous devez insérer une Google Map dans votre site web (page Contact, footer).

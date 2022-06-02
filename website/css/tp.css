@@ -1,0 +1,375 @@
+/**
+    Déclaration global a toute l'application
+    Cette partie est modifié SEULEMENT APRES avoir communiquer avec les autre membre de l'équipe.
+    --------------------------------------------------------------------------------------------
+**/
+
+/** Chargement des polices **/
+
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+/** Déclaration du box-sizing **/
+
+/** Sémantique permettant un aspect constant sur toute l'application **/
+
+body {
+    font-family: 'Adamina', serif;
+    background: linear-gradient( to bottom right, #D9CAB3, white);
+}
+
+header {
+    height: 150px;
+    background: linear-gradient(to bottom left, #5E0B15, red);
+    padding: 1%;
+}
+
+header div, header img, header nav {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+
+header nav {
+    width: 100%;
+    position: relative;
+}
+
+div.navigation {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 28%;
+    text-align: right;
+}
+
+div.navigation a {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 1.2%;
+}
+
+a:link, a:visited {
+    color: goldenrod;
+}
+
+a:hover {
+    color: gold;
+}
+
+section {
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom left, #5E0B15, red);
+}
+
+section img {
+    display: inline-block;
+}
+
+article {
+    margin: 3%;
+    padding: 1%;
+    background: #D9CAB3;
+    border-radius: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    margin: 2%;
+    border-radius: 20px;
+}
+
+footer {
+    height: 325px;
+    background: linear-gradient(to bottom right, #5E0B15, red);
+    padding: 1%;
+    font-size: 15px;
+    position: relative;
+}
+
+.footer-list {
+    margin: 2%;
+    display: inline-block;
+    height: 100%;
+}
+
+footer img {
+    display: inline-block;
+    width: 56px;
+}
+
+.footer-menu {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+}
+
+.contact img {
+    width: 48px;
+}
+
+.map {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+article a:link {
+    color: black;
+}
+
+article a:visited {
+    color: darkblue;
+}
+
+article.apercu-produit div {
+    height: fit-content;
+    max-width: 400px;
+}
+
+article.apercu-produit img {
+    margin: auto;
+    width: 100%;
+    height: 75%;
+}
+
+article.apercu-produit {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+
+section.gallerie {
+    overflow: scroll;
+    height: 1000px;
+}
+
+table, th, td {
+    border: 1px solid goldenrod;
+    background-color: darkred;
+    color: gold;
+    padding: 10px;
+}
+
+table caption {
+    color: black;
+    font-weight: bold;
+}
+
+/** Accueil **/
+
+.accueil div.title-and-section {
+    width: 48%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.accueil section.intro div {
+    display: inline-block;
+    width: 45%;
+}
+
+.accueil section.intro img {
+    width: 90%;
+}
+
+.accueil section.intro article {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.accueil main {
+    width: 95%;
+    margin: auto;
+}
+
+/** Contact **/
+
+.container-message {
+    position: absolute;
+    width: 30%;
+    right: 0;
+}
+
+.contact-form div.container, .contact-form div.containerr, .container-message {
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    vertical-align: top;
+}
+
+.container-message label, .container-message .input {
+    display: block;
+}
+
+.contact-form div.input {
+    margin: 3%;
+    width: 100%;
+}
+
+div.containerr div.input {
+    margin-bottom: 7%;
+    position: relative;
+}
+
+.contact-form .containerr input, .contact-form .containerr select {
+    position: absolute;
+    right: 0;
+    width: 30%;
+}
+
+/**---------------------------------------------------------Ancien CSS Ornella----------------------------------------------------------------
+
+/**.contact-form fieldset {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: rgb(245, 245, 219);
+}
+
+.login div {
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.login#personnel {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#personnel div {
+    padding: 10px;
+    margin-left: 40px;
+    width: 70%;
+}
+
+#personnel div label {
+    display: inline-block;
+    width: 150px;
+}
+
+#personnel div span {
+    display: block;
+    margin-right: 70px;
+}
+
+#personnel div span.required {
+    color: red;
+}
+
+.contact-form input {
+    position: relative;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/**
+.title-and-section {
+    margin-top: 200px;
+}
+
+
+span {
+    position: fixed;
+    display: block;
+    margin-right: 70px;
+}
+
+#profil div {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 80%;
+}
+
+
+input[type="radio"] {
+    margin-top: 60px;
+    margin-right: 5px;
+}
+
+select {
+    margin-left: 115px;
+}**/
+
+/**----------------------------------------------------------------------------/
+/** Galerie-Photo**/
+
+/** Services**/
+
+.services-boards table {
+    margin: auto;
+}
+
+/**Catalogue**/
+
+.catalogue .gallerie {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    height: 525px;
+}
+
+.catalogue .research-bar input[type="range"] {
+    display: block;
+}
+
+/**Detail-produit**/
+
+.detail-produit main img {
+    max-height: 400px;
+    display: inline-block;
+}
+
+.detail-produit .title-and-section {
+    display: inline-block;
+    width: 60%;
+    margin-top: 2%;
+    vertical-align: top;
+}
+
+.detail-produit .title-and-section div {
+    display: inline-block;
+}
+
+.detail-produit .title-and-section article {
+    display: inline-block;
+}
+
+.detail-produit aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+}
+
+.detail-produit main>div {
+    display: inline-block;
+    width: 75%;
+}
+
+.detail-produit h2 {
+    margin-left: 2%;
+}
+
+.detail-produit form div {
+    margin: 10px;
+}
+
+.detail-produit .button {
+    text-align: center;
+}
